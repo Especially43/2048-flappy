@@ -139,10 +139,10 @@ hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30p
 .game-explanation{margin-top:50px}
 @media screen and (max-width: 520px) {
 html,body{font-size:15px}
-body{margin:20px 0;padding:0 20px}
+body{margin:10px 0;padding:0 5px}
 h1.title{max-width:1px;white-space:nowrap;font-size:27px;margin-top:15px}
 .container{max-width:280px;margin:0 auto}
-.score-container,.best-container{margin-top:0;padding:15px 10px;min-width:40px}
+.score-container,.best-container{margin-top:0;padding:15px 5px;min-width:40px}
 .heading{margin-bottom:10px}
 .game-container{margin-top:40px;position:relative;padding:10px;cursor:default;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;background:#473728;border-radius:6px;width:280px;height:280px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .game-container .game-message{display:none;position:absolute;top:0;right:0;bottom:0;left:0;background:#eee4da80;z-index:100;text-align:center;-webkit-animation:fade-in 800ms ease 1200ms;-moz-animation:fade-in 800ms ease 1200ms;animation:fade-in 800ms ease 1200ms;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}
