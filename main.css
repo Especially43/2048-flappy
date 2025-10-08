@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-html,body{margin:0;padding:0;background:#faf8ef;color:#776e65;font-family:"Poppins","Helvetica Neue",Arial,sans-serif;font-size:18px}
+html,body{margin:0;padding:0;background:#faf8ef;color:#4f463d;font-family:"Poppins","Helvetica Neue",Arial,sans-serif;font-size:18px}
 body{margin:20px 0}
 .heading:after{content:"";display:block;clear:both}
-h1.title{max-width:1px;white-space:nowrap;font-size:35px;font-weight:700;margin:25px 0 0;display:block;float:left}
+h1.title{white-space:nowrap;font-size:31px;font-weight:700;margin:15px 0 0;display:block;float:left}
 @-webkit-keyframes move-up {
 0%{top:25px;opacity:1}
 100%{top:-50px;opacity:0}
@@ -16,16 +16,16 @@ h1.title{max-width:1px;white-space:nowrap;font-size:35px;font-weight:700;margin:
 100%{top:-50px;opacity:0}
 }
 .scores-container{float:right;text-align:right}
-.score-container,.best-container{position:relative;display:inline-block;background:#6d5946;padding:15px 25px;font-size:25px;height:25px;line-height:47px;font-weight:700;border-radius:3px;color:#fff;margin-top:8px;text-align:center}
+.score-container,.best-container{position:relative;display:inline-block;background:#6d5946;padding:15px;font-size:21px;height:25px;line-height:47px;font-weight:700;border-radius:3px;color:#fff;margin-top:8px;text-align:center}
 .score-container:after,.best-container:after{position:absolute;width:100%;top:10px;left:0;text-transform:uppercase;font-size:13px;line-height:13px;text-align:center;color:#eee4da}
 .score-container .score-addition,.best-container .score-addition{position:absolute;right:30px;color:red;font-size:25px;line-height:25px;font-weight:700;color:#776e65e6;z-index:100;-webkit-animation:move-up 600ms ease-in;-moz-animation:move-up 600ms ease-in;animation:move-up 600ms ease-in;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}
 .score-container:after{content:"Score"}
 .best-container:after{content:"Best"}
 p{margin-top:0;margin-bottom:10px;line-height:1.65}
-a{color:#776e65;font-weight:700;text-decoration:underline;cursor:pointer}
+a{color:#433425;font-weight:700;text-decoration:underline;cursor:pointer}
 strong.important{text-transform:uppercase}
 hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30px}
-.container{width:500px;margin:0 auto}
+.container{max-width:500px;margin:0 auto}
 @-webkit-keyframes fade-in {
 0%{opacity:0}
 100%{opacity:1}
@@ -141,7 +141,7 @@ hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30p
 html,body{font-size:15px}
 body{margin:20px 0;padding:0 20px}
 h1.title{max-width:1px;white-space:nowrap;font-size:27px;margin-top:15px}
-.container{width:280px;margin:0 auto}
+.container{max-width:280px;margin:0 auto}
 .score-container,.best-container{margin-top:0;padding:15px 10px;min-width:40px}
 .heading{margin-bottom:10px}
 .game-container{margin-top:40px;position:relative;padding:10px;cursor:default;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;background:#473728;border-radius:6px;width:280px;height:280px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
