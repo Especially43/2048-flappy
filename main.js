@@ -623,11 +623,13 @@ GameManager.prototype.timer = function () {
   var self = this;
 
   // move
-  this.birdpos += this.birdspd;
-  this.birdspd += 0.00015 / (this.birdspd + 0.1);
+ this.birdpos += this.birdspd;
+var gravityBase = 0.00015;
+var gravityIncrease = Math.min(this.score * 0.00001, 0.0003);
+this.birdspd += (gravityBase + gravityIncrease) / (this.birdspd + 0.1);
 
-  if (this.birdpos > 1 && this.birdspd > 0) this.birdspd = -this.birdspd;
-  if (this.birdpos < -0.25 && this.birdspd < 0) this.birdspd = -this.birdspd;
+if (this.birdpos > 1 && this.birdspd > 0) this.birdspd = -this.birdspd;
+if (this.birdpos < -0.25 && this.birdspd < 0) this.birdspd = -this.birdspd;
 
   this.score += 1 / 64;
 
